@@ -7,6 +7,15 @@ tatsam rest api demo using java
 3. Career
 4. Wealth
 
+After project has been intialized, areas tables been created by spring hibernate jpa 
+then we can fill the areas table with mysql query:
+#####
+INSERT INTO areas (priority_id, priority_area_name,priority_rating) VALUES(1,"Connections",0),  
+                         (2,"Relationships",0),
+                         (3,"Career",0),
+                         (4,"Wealth",0)
+
+
 # endpoint 
   GET / - WELCOME NOTE
   
