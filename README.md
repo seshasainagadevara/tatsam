@@ -12,6 +12,8 @@ tatsam rest api demo using java
   
   GET /areas - send list of all priority areas
   Response:
+     
+     {
      [
     {
         "priorityId": 1,
@@ -34,10 +36,11 @@ tatsam rest api demo using java
         "priorityRating": 0
     }
 ]
+}
 
   GET /MyProfile/[userid] - returns user priority
      Response:
-       [
+      { [
     {
         "priorityId": 1,
         "priorityAreaName": "Connections",
@@ -59,6 +62,7 @@ tatsam rest api demo using java
         "priorityRating": 5
     }
 ]
+}
 
 
   POST /add - adds area with priorty and rating
