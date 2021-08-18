@@ -36,11 +36,14 @@ tatsam rest api demo using java
         "priorityRating": 0
     }
 ]
-}
+},
 
   GET /MyProfile/[userid] - returns user priority
      Response:
-      { [
+     
+     
+      { 
+      [
     {
         "priorityId": 1,
         "priorityAreaName": "Connections",
@@ -60,9 +63,9 @@ tatsam rest api demo using java
         "priorityId": 4,
         "priorityAreaName": "Wealth",
         "priorityRating": 5
-    }
+    },
 ]
-}
+},
 
 
   POST /add - adds area with priorty and rating
